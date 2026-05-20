@@ -30,13 +30,13 @@ A Minecraft Fabric mod that gives copper golems intelligent item stacking behavi
 
 ```
 src/
-├── main/
-│   ├── java/
-│   │   └── com/github/pedropramos/coppergolemssmartstacks/
-│   │       ├── CopperGolemsSmartStacks.java      # Main mod entry point
-│   │       └── mixin/
-│   │           └── TransportItemsBetweenContainersMixin.java  # Core smart stacking logic
-│   └── resources/
-│       ├── fabric.mod.json                        # Mod metadata
-│       └── copper-golems-smart-stacks.mixins.json # Mixin configuration
+└── main/
+    ├── java/
+    │   └── com/github/pedropramos/coppergolemssmartstacks/
+    │       ├── CopperGolemsSmartStacks.java      # Main mod entry point
+    │       └── mixin/
+    │           └── TransportItemsBetweenContainersMixin.java  # Core smart stacking logic
+    └── resources/
+        ├── fabric.mod.json                        # Mod metadata
+        └── copper-golems-smart-stacks.mixins.json # Mixin configuration
 ```
