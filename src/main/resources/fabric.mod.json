@@ -3,13 +3,13 @@
 	"id": "copper-golems-smart-stacks",
 	"version": "${version}",
 	"name": "Copper Golems Smart Stacks",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A Minecraft Fabric mod that gives copper golems intelligent item stacking behavior",
 	"authors": [
-		"Me!"
+		"pedropramos"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/pedropramos/copper-golems-smart-stacks"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/copper-golems-smart-stacks/icon.png",
@@ -17,17 +17,10 @@
 	"entrypoints": {
 		"main": [
 			"com.github.pedropramos.coppergolemssmartstacks.CopperGolemsSmartStacks"
-		],
-		"client": [
-			"com.github.pedropramos.coppergolemssmartstacks.client.CopperGolemsSmartStacksClient"
 		]
 	},
 	"mixins": [
-		"copper-golems-smart-stacks.mixins.json",
-		{
-			"config": "copper-golems-smart-stacks.client.mixins.json",
-			"environment": "client"
-		}
+		"copper-golems-smart-stacks.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.19.2",

@@ -27,7 +27,6 @@ loom {
 	mods {
 		"copper-golems-smart-stacks" {
 			sourceSet sourceSets.main
-			sourceSet sourceSets.client
 		}
 	}
 
